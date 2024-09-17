@@ -1,0 +1,59 @@
+body {
+    background-image: url("https://img.freepik.com/free-vector/beige-leafy-watercolor-background-vector_53876-136491.jpg");
+    background-size: cover; /* Ensure background covers the entire screen */
+}
+
+header {
+    padding: 2em;
+    background-color: #00aeff;
+    margin-top: 2em;
+    text-align: center;
+    color: azure; 
+    border-radius: 10px; /* Rounded corners */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Shadow for depth */
+}
+
+.quote {
+    font-size: 2em;
+    transition: opacity 0.5s ease-in-out; /* Smooth transition */
+}
+
+.card {
+    text-align: center;
+    width: 90%;
+    max-width: 45em; /* Limit card width */
+    margin: 1em auto; /* Center card */
+    padding: 1em;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Shadow for depth */
+}
+
+.new-quote-button {
+    background-color: #f7f447;
+    border-color: blue;
+    border-radius: 5px; /* Rounded corners */
+    transition: background-color 0.3s ease, transform 0.3s ease; /* Transition for background and scale */
+}
+
+#button:hover {
+    background-color: rgb(64, 198, 156);
+    transform: scale(1.1); /* Slightly increase button size on hover */
+}
+
+#button {
+    display: inline-block; /* Ensure the button behaves as an inline block element */
+    padding: 10px 20px; /* Adjust the padding for size */
+    font-size: 34px; /* Adjust the font size for text size */
+    border: none; /* Remove default border */
+    border-radius: 5px; /* Optional: Rounded corners */
+    background-color: #e3de53; /* Background color */
+    color: rgb(16, 13, 13); /* Text color */
+    text-align: center; /* Center text */
+    text-decoration: none; /* Remove underline */
+    cursor: pointer; /* Pointer cursor on hover */
+    transition: background-color 0.3s ease, box-shadow 0.3s ease; /* Smooth background color transition */
+}
+
+button:active {
+    box-shadow: inset 0 0 5px rgba(0, 0, 0, 0.2); /* Inner shadow on button press */
+}
